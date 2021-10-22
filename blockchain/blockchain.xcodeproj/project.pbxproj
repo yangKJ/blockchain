@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68B4F9AE27062D52003F323F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4F9AD27062D52003F323F /* AppDelegate.m */; };
+		68B4F9B127062D52003F323F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4F9B027062D52003F323F /* SceneDelegate.m */; };
+		68B4F9B427062D52003F323F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4F9B327062D52003F323F /* ViewController.m */; };
+		68B4F9B727062D52003F323F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B4F9B527062D52003F323F /* Main.storyboard */; };
+		68B4F9B927062D53003F323F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B4F9B827062D53003F323F /* Assets.xcassets */; };
+		68B4F9BC27062D53003F323F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B4F9BA27062D53003F323F /* LaunchScreen.storyboard */; };
+		68B4F9BF27062D53003F323F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4F9BE27062D53003F323F /* main.m */; };
+		68EA052E27062DA4008BF67E /* BaseChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EA052D27062DA4008BF67E /* BaseChain.m */; };
+		68EA05322706301E008BF67E /* bip39.c in Sources */ = {isa = PBXBuildFile; fileRef = 68EA05312706301E008BF67E /* bip39.c */; };
+		68EA053627063AF7008BF67E /* ETHBlockChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EA053527063AF7008BF67E /* ETHBlockChain.m */; };
+		68EA0556270695ED008BF67E /* aes.c in Sources */ = {isa = PBXBuildFile; fileRef = 68EA054E270695EC008BF67E /* aes.c */; };
+		68EA0557270695ED008BF67E /* rmd160.c in Sources */ = {isa = PBXBuildFile; fileRef = 68EA0550270695EC008BF67E /* rmd160.c */; };
+		68EA0558270695ED008BF67E /* base58.c in Sources */ = {isa = PBXBuildFile; fileRef = 68EA0551270695EC008BF67E /* base58.c */; };
+		68EA0559270695ED008BF67E /* uECC.c in Sources */ = {isa = PBXBuildFile; fileRef = 68EA0553270695ED008BF67E /* uECC.c */; };
+		68EA05622706A5E1008BF67E /* sha256.c in Sources */ = {isa = PBXBuildFile; fileRef = 68EA05612706A5E1008BF67E /* sha256.c */; };
+		68EA05652706FC82008BF67E /* wordlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 68EA05642706FC82008BF67E /* wordlist.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68B4F9A927062D52003F323F /* blockchain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blockchain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B4F9AC27062D52003F323F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68B4F9AD27062D52003F323F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68B4F9AF27062D52003F323F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		68B4F9B027062D52003F323F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		68B4F9B227062D52003F323F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		68B4F9B327062D52003F323F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		68B4F9B627062D52003F323F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68B4F9B827062D53003F323F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68B4F9BB27062D53003F323F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68B4F9BD27062D53003F323F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68B4F9BE27062D53003F323F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68EA052C27062DA4008BF67E /* BaseChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseChain.h; sourceTree = "<group>"; };
+		68EA052D27062DA4008BF67E /* BaseChain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseChain.m; sourceTree = "<group>"; };
+		68EA05302706301E008BF67E /* bip39.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bip39.h; sourceTree = "<group>"; };
+		68EA05312706301E008BF67E /* bip39.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bip39.c; sourceTree = "<group>"; };
+		68EA053427063AF7008BF67E /* ETHBlockChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETHBlockChain.h; sourceTree = "<group>"; };
+		68EA053527063AF7008BF67E /* ETHBlockChain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETHBlockChain.m; sourceTree = "<group>"; };
+		68EA054C270695EC008BF67E /* rmd160.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rmd160.h; sourceTree = "<group>"; };
+		68EA054D270695EC008BF67E /* base58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base58.h; sourceTree = "<group>"; };
+		68EA054E270695EC008BF67E /* aes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aes.c; sourceTree = "<group>"; };
+		68EA054F270695EC008BF67E /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		68EA0550270695EC008BF67E /* rmd160.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rmd160.c; sourceTree = "<group>"; };
+		68EA0551270695EC008BF67E /* base58.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base58.c; sourceTree = "<group>"; };
+		68EA0553270695ED008BF67E /* uECC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uECC.c; sourceTree = "<group>"; };
+		68EA0555270695ED008BF67E /* uECC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uECC.h; sourceTree = "<group>"; };
+		68EA05602706A5E1008BF67E /* sha256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha256.h; sourceTree = "<group>"; };
+		68EA05612706A5E1008BF67E /* sha256.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha256.c; sourceTree = "<group>"; };
+		68EA05632706FC82008BF67E /* wordlist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wordlist.h; sourceTree = "<group>"; };
+		68EA05642706FC82008BF67E /* wordlist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wordlist.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68B4F9A627062D52003F323F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68B4F9A027062D51003F323F = {
+			isa = PBXGroup;
+			children = (
+				68B4F9AB27062D52003F323F /* blockchain */,
+				68B4F9AA27062D52003F323F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68B4F9AA27062D52003F323F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68B4F9A927062D52003F323F /* blockchain.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68B4F9AB27062D52003F323F /* blockchain */ = {
+			isa = PBXGroup;
+			children = (
+				68EA052A27062D7D008BF67E /* sources */,
+				68B4F9AC27062D52003F323F /* AppDelegate.h */,
+				68B4F9AD27062D52003F323F /* AppDelegate.m */,
+				68B4F9AF27062D52003F323F /* SceneDelegate.h */,
+				68B4F9B027062D52003F323F /* SceneDelegate.m */,
+				68B4F9B227062D52003F323F /* ViewController.h */,
+				68B4F9B327062D52003F323F /* ViewController.m */,
+				68B4F9B527062D52003F323F /* Main.storyboard */,
+				68B4F9B827062D53003F323F /* Assets.xcassets */,
+				68B4F9BA27062D53003F323F /* LaunchScreen.storyboard */,
+				68B4F9BD27062D53003F323F /* Info.plist */,
+				68B4F9BE27062D53003F323F /* main.m */,
+			);
+			path = blockchain;
+			sourceTree = "<group>";
+		};
+		68EA052A27062D7D008BF67E /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				68EA052F27062ED7008BF67E /* bips */,
+				68EA052B27062D91008BF67E /* core */,
+				68EA053927065B22008BF67E /* crypto */,
+				68EA053327063ABC008BF67E /* Ethereum */,
+			);
+			path = sources;
+			sourceTree = "<group>";
+		};
+		68EA052B27062D91008BF67E /* core */ = {
+			isa = PBXGroup;
+			children = (
+				68EA052C27062DA4008BF67E /* BaseChain.h */,
+				68EA052D27062DA4008BF67E /* BaseChain.m */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		68EA052F27062ED7008BF67E /* bips */ = {
+			isa = PBXGroup;
+			children = (
+				68EA05302706301E008BF67E /* bip39.h */,
+				68EA05312706301E008BF67E /* bip39.c */,
+				68EA05632706FC82008BF67E /* wordlist.h */,
+				68EA05642706FC82008BF67E /* wordlist.c */,
+			);
+			path = bips;
+			sourceTree = "<group>";
+		};
+		68EA053327063ABC008BF67E /* Ethereum */ = {
+			isa = PBXGroup;
+			children = (
+				68EA053427063AF7008BF67E /* ETHBlockChain.h */,
+				68EA053527063AF7008BF67E /* ETHBlockChain.m */,
+			);
+			path = Ethereum;
+			sourceTree = "<group>";
+		};
+		68EA053927065B22008BF67E /* crypto */ = {
+			isa = PBXGroup;
+			children = (
+				68EA05602706A5E1008BF67E /* sha256.h */,
+				68EA05612706A5E1008BF67E /* sha256.c */,
+				68EA054F270695EC008BF67E /* aes.h */,
+				68EA054E270695EC008BF67E /* aes.c */,
+				68EA054D270695EC008BF67E /* base58.h */,
+				68EA0551270695EC008BF67E /* base58.c */,
+				68EA054C270695EC008BF67E /* rmd160.h */,
+				68EA0550270695EC008BF67E /* rmd160.c */,
+				68EA0555270695ED008BF67E /* uECC.h */,
+				68EA0553270695ED008BF67E /* uECC.c */,
+			);
+			path = crypto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68B4F9A827062D52003F323F /* blockchain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B4F9C227062D53003F323F /* Build configuration list for PBXNativeTarget "blockchain" */;
+			buildPhases = (
+				68B4F9A527062D52003F323F /* Sources */,
+				68B4F9A627062D52003F323F /* Frameworks */,
+				68B4F9A727062D52003F323F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = blockchain;
+			productName = blockchain;
+			productReference = 68B4F9A927062D52003F323F /* blockchain.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68B4F9A127062D51003F323F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					68B4F9A827062D52003F323F = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 68B4F9A427062D51003F323F /* Build configuration list for PBXProject "blockchain" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68B4F9A027062D51003F323F;
+			productRefGroup = 68B4F9AA27062D52003F323F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68B4F9A827062D52003F323F /* blockchain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68B4F9A727062D52003F323F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B4F9BC27062D53003F323F /* LaunchScreen.storyboard in Resources */,
+				68B4F9B927062D53003F323F /* Assets.xcassets in Resources */,
+				68B4F9B727062D52003F323F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68B4F9A527062D52003F323F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B4F9B427062D52003F323F /* ViewController.m in Sources */,
+				68EA0558270695ED008BF67E /* base58.c in Sources */,
+				68EA052E27062DA4008BF67E /* BaseChain.m in Sources */,
+				68EA053627063AF7008BF67E /* ETHBlockChain.m in Sources */,
+				68EA0557270695ED008BF67E /* rmd160.c in Sources */,
+				68EA05652706FC82008BF67E /* wordlist.c in Sources */,
+				68EA0556270695ED008BF67E /* aes.c in Sources */,
+				68B4F9AE27062D52003F323F /* AppDelegate.m in Sources */,
+				68EA0559270695ED008BF67E /* uECC.c in Sources */,
+				68EA05322706301E008BF67E /* bip39.c in Sources */,
+				68B4F9BF27062D53003F323F /* main.m in Sources */,
+				68EA05622706A5E1008BF67E /* sha256.c in Sources */,
+				68B4F9B127062D52003F323F /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68B4F9B527062D52003F323F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68B4F9B627062D52003F323F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68B4F9BA27062D53003F323F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68B4F9BB27062D53003F323F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68B4F9C027062D53003F323F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68B4F9C127062D53003F323F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68B4F9C327062D53003F323F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = blockchain/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ykj.blockchain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68B4F9C427062D53003F323F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = blockchain/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ykj.blockchain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68B4F9A427062D51003F323F /* Build configuration list for PBXProject "blockchain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B4F9C027062D53003F323F /* Debug */,
+				68B4F9C127062D53003F323F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B4F9C227062D53003F323F /* Build configuration list for PBXNativeTarget "blockchain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B4F9C327062D53003F323F /* Debug */,
+				68B4F9C427062D53003F323F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68B4F9A127062D51003F323F /* Project object */;
+}
