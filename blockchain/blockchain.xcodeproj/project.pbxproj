@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04B04DC627A652D600D1D416 /* aes.c in Sources */ = {isa = PBXBuildFile; fileRef = 04B04DB127A652D600D1D416 /* aes.c */; };
+		04B04DC727A652D600D1D416 /* uECC.c in Sources */ = {isa = PBXBuildFile; fileRef = 04B04DB627A652D600D1D416 /* uECC.c */; };
+		04B04DC827A652D600D1D416 /* sha256.c in Sources */ = {isa = PBXBuildFile; fileRef = 04B04DB827A652D600D1D416 /* sha256.c */; };
+		04B04DC927A652D600D1D416 /* base58.c in Sources */ = {isa = PBXBuildFile; fileRef = 04B04DB927A652D600D1D416 /* base58.c */; };
+		04B04DCA27A652D600D1D416 /* rmd160.c in Sources */ = {isa = PBXBuildFile; fileRef = 04B04DBA27A652D600D1D416 /* rmd160.c */; };
+		04B04DCB27A652D600D1D416 /* BaseChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B04DBD27A652D600D1D416 /* BaseChain.m */; };
+		04B04DCC27A652D600D1D416 /* bip39.c in Sources */ = {isa = PBXBuildFile; fileRef = 04B04DBF27A652D600D1D416 /* bip39.c */; };
+		04B04DCD27A652D600D1D416 /* wordlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 04B04DC227A652D600D1D416 /* wordlist.c */; };
+		04B04DCE27A652D600D1D416 /* ETHBlockChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B04DC427A652D600D1D416 /* ETHBlockChain.m */; };
 		68B4F9AE27062D52003F323F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4F9AD27062D52003F323F /* AppDelegate.m */; };
 		68B4F9B127062D52003F323F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4F9B027062D52003F323F /* SceneDelegate.m */; };
 		68B4F9B427062D52003F323F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4F9B327062D52003F323F /* ViewController.m */; };
@@ -14,18 +23,27 @@
 		68B4F9B927062D53003F323F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B4F9B827062D53003F323F /* Assets.xcassets */; };
 		68B4F9BC27062D53003F323F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B4F9BA27062D53003F323F /* LaunchScreen.storyboard */; };
 		68B4F9BF27062D53003F323F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4F9BE27062D53003F323F /* main.m */; };
-		68EA052E27062DA4008BF67E /* BaseChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EA052D27062DA4008BF67E /* BaseChain.m */; };
-		68EA05322706301E008BF67E /* bip39.c in Sources */ = {isa = PBXBuildFile; fileRef = 68EA05312706301E008BF67E /* bip39.c */; };
-		68EA053627063AF7008BF67E /* ETHBlockChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EA053527063AF7008BF67E /* ETHBlockChain.m */; };
-		68EA0556270695ED008BF67E /* aes.c in Sources */ = {isa = PBXBuildFile; fileRef = 68EA054E270695EC008BF67E /* aes.c */; };
-		68EA0557270695ED008BF67E /* rmd160.c in Sources */ = {isa = PBXBuildFile; fileRef = 68EA0550270695EC008BF67E /* rmd160.c */; };
-		68EA0558270695ED008BF67E /* base58.c in Sources */ = {isa = PBXBuildFile; fileRef = 68EA0551270695EC008BF67E /* base58.c */; };
-		68EA0559270695ED008BF67E /* uECC.c in Sources */ = {isa = PBXBuildFile; fileRef = 68EA0553270695ED008BF67E /* uECC.c */; };
-		68EA05622706A5E1008BF67E /* sha256.c in Sources */ = {isa = PBXBuildFile; fileRef = 68EA05612706A5E1008BF67E /* sha256.c */; };
-		68EA05652706FC82008BF67E /* wordlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 68EA05642706FC82008BF67E /* wordlist.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04B04DB127A652D600D1D416 /* aes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aes.c; sourceTree = "<group>"; };
+		04B04DB227A652D600D1D416 /* uECC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uECC.h; sourceTree = "<group>"; };
+		04B04DB327A652D600D1D416 /* base58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base58.h; sourceTree = "<group>"; };
+		04B04DB427A652D600D1D416 /* sha256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha256.h; sourceTree = "<group>"; };
+		04B04DB527A652D600D1D416 /* rmd160.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rmd160.h; sourceTree = "<group>"; };
+		04B04DB627A652D600D1D416 /* uECC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uECC.c; sourceTree = "<group>"; };
+		04B04DB727A652D600D1D416 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		04B04DB827A652D600D1D416 /* sha256.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha256.c; sourceTree = "<group>"; };
+		04B04DB927A652D600D1D416 /* base58.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base58.c; sourceTree = "<group>"; };
+		04B04DBA27A652D600D1D416 /* rmd160.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rmd160.c; sourceTree = "<group>"; };
+		04B04DBC27A652D600D1D416 /* BaseChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseChain.h; sourceTree = "<group>"; };
+		04B04DBD27A652D600D1D416 /* BaseChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseChain.m; sourceTree = "<group>"; };
+		04B04DBF27A652D600D1D416 /* bip39.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bip39.c; sourceTree = "<group>"; };
+		04B04DC027A652D600D1D416 /* wordlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordlist.h; sourceTree = "<group>"; };
+		04B04DC127A652D600D1D416 /* bip39.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bip39.h; sourceTree = "<group>"; };
+		04B04DC227A652D600D1D416 /* wordlist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wordlist.c; sourceTree = "<group>"; };
+		04B04DC427A652D600D1D416 /* ETHBlockChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETHBlockChain.m; sourceTree = "<group>"; };
+		04B04DC527A652D600D1D416 /* ETHBlockChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETHBlockChain.h; sourceTree = "<group>"; };
 		68B4F9A927062D52003F323F /* blockchain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blockchain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B4F9AC27062D52003F323F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		68B4F9AD27062D52003F323F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -38,24 +56,6 @@
 		68B4F9BB27062D53003F323F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68B4F9BD27062D53003F323F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68B4F9BE27062D53003F323F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		68EA052C27062DA4008BF67E /* BaseChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseChain.h; sourceTree = "<group>"; };
-		68EA052D27062DA4008BF67E /* BaseChain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseChain.m; sourceTree = "<group>"; };
-		68EA05302706301E008BF67E /* bip39.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bip39.h; sourceTree = "<group>"; };
-		68EA05312706301E008BF67E /* bip39.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bip39.c; sourceTree = "<group>"; };
-		68EA053427063AF7008BF67E /* ETHBlockChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETHBlockChain.h; sourceTree = "<group>"; };
-		68EA053527063AF7008BF67E /* ETHBlockChain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETHBlockChain.m; sourceTree = "<group>"; };
-		68EA054C270695EC008BF67E /* rmd160.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rmd160.h; sourceTree = "<group>"; };
-		68EA054D270695EC008BF67E /* base58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base58.h; sourceTree = "<group>"; };
-		68EA054E270695EC008BF67E /* aes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aes.c; sourceTree = "<group>"; };
-		68EA054F270695EC008BF67E /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
-		68EA0550270695EC008BF67E /* rmd160.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rmd160.c; sourceTree = "<group>"; };
-		68EA0551270695EC008BF67E /* base58.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base58.c; sourceTree = "<group>"; };
-		68EA0553270695ED008BF67E /* uECC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uECC.c; sourceTree = "<group>"; };
-		68EA0555270695ED008BF67E /* uECC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uECC.h; sourceTree = "<group>"; };
-		68EA05602706A5E1008BF67E /* sha256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha256.h; sourceTree = "<group>"; };
-		68EA05612706A5E1008BF67E /* sha256.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha256.c; sourceTree = "<group>"; };
-		68EA05632706FC82008BF67E /* wordlist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wordlist.h; sourceTree = "<group>"; };
-		68EA05642706FC82008BF67E /* wordlist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wordlist.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +69,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04B04DAF27A652D600D1D416 /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				04B04DBE27A652D600D1D416 /* bips */,
+				04B04DBB27A652D600D1D416 /* core */,
+				04B04DB027A652D600D1D416 /* crypto */,
+				04B04DC327A652D600D1D416 /* Ethereum */,
+			);
+			name = sources;
+			path = ../../sources;
+			sourceTree = "<group>";
+		};
+		04B04DB027A652D600D1D416 /* crypto */ = {
+			isa = PBXGroup;
+			children = (
+				04B04DB127A652D600D1D416 /* aes.c */,
+				04B04DB727A652D600D1D416 /* aes.h */,
+				04B04DB927A652D600D1D416 /* base58.c */,
+				04B04DB327A652D600D1D416 /* base58.h */,
+				04B04DBA27A652D600D1D416 /* rmd160.c */,
+				04B04DB527A652D600D1D416 /* rmd160.h */,
+				04B04DB827A652D600D1D416 /* sha256.c */,
+				04B04DB427A652D600D1D416 /* sha256.h */,
+				04B04DB627A652D600D1D416 /* uECC.c */,
+				04B04DB227A652D600D1D416 /* uECC.h */,
+			);
+			path = crypto;
+			sourceTree = "<group>";
+		};
+		04B04DBB27A652D600D1D416 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				04B04DBC27A652D600D1D416 /* BaseChain.h */,
+				04B04DBD27A652D600D1D416 /* BaseChain.m */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		04B04DBE27A652D600D1D416 /* bips */ = {
+			isa = PBXGroup;
+			children = (
+				04B04DBF27A652D600D1D416 /* bip39.c */,
+				04B04DC127A652D600D1D416 /* bip39.h */,
+				04B04DC227A652D600D1D416 /* wordlist.c */,
+				04B04DC027A652D600D1D416 /* wordlist.h */,
+			);
+			path = bips;
+			sourceTree = "<group>";
+		};
+		04B04DC327A652D600D1D416 /* Ethereum */ = {
+			isa = PBXGroup;
+			children = (
+				04B04DC527A652D600D1D416 /* ETHBlockChain.h */,
+				04B04DC427A652D600D1D416 /* ETHBlockChain.m */,
+			);
+			path = Ethereum;
+			sourceTree = "<group>";
+		};
 		68B4F9A027062D51003F323F = {
 			isa = PBXGroup;
 			children = (
@@ -88,7 +146,7 @@
 		68B4F9AB27062D52003F323F /* blockchain */ = {
 			isa = PBXGroup;
 			children = (
-				68EA052A27062D7D008BF67E /* sources */,
+				04B04DAF27A652D600D1D416 /* sources */,
 				68B4F9AC27062D52003F323F /* AppDelegate.h */,
 				68B4F9AD27062D52003F323F /* AppDelegate.m */,
 				68B4F9AF27062D52003F323F /* SceneDelegate.h */,
@@ -102,63 +160,6 @@
 				68B4F9BE27062D53003F323F /* main.m */,
 			);
 			path = blockchain;
-			sourceTree = "<group>";
-		};
-		68EA052A27062D7D008BF67E /* sources */ = {
-			isa = PBXGroup;
-			children = (
-				68EA052F27062ED7008BF67E /* bips */,
-				68EA052B27062D91008BF67E /* core */,
-				68EA053927065B22008BF67E /* crypto */,
-				68EA053327063ABC008BF67E /* Ethereum */,
-			);
-			path = sources;
-			sourceTree = "<group>";
-		};
-		68EA052B27062D91008BF67E /* core */ = {
-			isa = PBXGroup;
-			children = (
-				68EA052C27062DA4008BF67E /* BaseChain.h */,
-				68EA052D27062DA4008BF67E /* BaseChain.m */,
-			);
-			path = core;
-			sourceTree = "<group>";
-		};
-		68EA052F27062ED7008BF67E /* bips */ = {
-			isa = PBXGroup;
-			children = (
-				68EA05302706301E008BF67E /* bip39.h */,
-				68EA05312706301E008BF67E /* bip39.c */,
-				68EA05632706FC82008BF67E /* wordlist.h */,
-				68EA05642706FC82008BF67E /* wordlist.c */,
-			);
-			path = bips;
-			sourceTree = "<group>";
-		};
-		68EA053327063ABC008BF67E /* Ethereum */ = {
-			isa = PBXGroup;
-			children = (
-				68EA053427063AF7008BF67E /* ETHBlockChain.h */,
-				68EA053527063AF7008BF67E /* ETHBlockChain.m */,
-			);
-			path = Ethereum;
-			sourceTree = "<group>";
-		};
-		68EA053927065B22008BF67E /* crypto */ = {
-			isa = PBXGroup;
-			children = (
-				68EA05602706A5E1008BF67E /* sha256.h */,
-				68EA05612706A5E1008BF67E /* sha256.c */,
-				68EA054F270695EC008BF67E /* aes.h */,
-				68EA054E270695EC008BF67E /* aes.c */,
-				68EA054D270695EC008BF67E /* base58.h */,
-				68EA0551270695EC008BF67E /* base58.c */,
-				68EA054C270695EC008BF67E /* rmd160.h */,
-				68EA0550270695EC008BF67E /* rmd160.c */,
-				68EA0555270695ED008BF67E /* uECC.h */,
-				68EA0553270695ED008BF67E /* uECC.c */,
-			);
-			path = crypto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,19 +232,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B04DCE27A652D600D1D416 /* ETHBlockChain.m in Sources */,
 				68B4F9B427062D52003F323F /* ViewController.m in Sources */,
-				68EA0558270695ED008BF67E /* base58.c in Sources */,
-				68EA052E27062DA4008BF67E /* BaseChain.m in Sources */,
-				68EA053627063AF7008BF67E /* ETHBlockChain.m in Sources */,
-				68EA0557270695ED008BF67E /* rmd160.c in Sources */,
-				68EA05652706FC82008BF67E /* wordlist.c in Sources */,
-				68EA0556270695ED008BF67E /* aes.c in Sources */,
+				04B04DC927A652D600D1D416 /* base58.c in Sources */,
+				04B04DC727A652D600D1D416 /* uECC.c in Sources */,
 				68B4F9AE27062D52003F323F /* AppDelegate.m in Sources */,
-				68EA0559270695ED008BF67E /* uECC.c in Sources */,
-				68EA05322706301E008BF67E /* bip39.c in Sources */,
+				04B04DC827A652D600D1D416 /* sha256.c in Sources */,
 				68B4F9BF27062D53003F323F /* main.m in Sources */,
-				68EA05622706A5E1008BF67E /* sha256.c in Sources */,
+				04B04DCB27A652D600D1D416 /* BaseChain.m in Sources */,
+				04B04DC627A652D600D1D416 /* aes.c in Sources */,
 				68B4F9B127062D52003F323F /* SceneDelegate.m in Sources */,
+				04B04DCA27A652D600D1D416 /* rmd160.c in Sources */,
+				04B04DCC27A652D600D1D416 /* bip39.c in Sources */,
+				04B04DCD27A652D600D1D416 /* wordlist.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
